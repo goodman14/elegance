@@ -1,0 +1,64 @@
+Title: Home
+
+----
+
+Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+
+----
+
+Text: 
+
+## Get started
+
+- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
+- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
+- Follow (twitter: @getkirby) on Twitter for updates
+- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
+- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
+- (link: http://getkirby.com/support text: Get in contact) if you need support.
+
+**Have fun with Kirby!**
+
+----
+
+About: 
+
+At Elegance by Design we offer bespoke Kitchens, Bathrooms, Bedrooms and Offices spaces which will perfectly enhance your home and lifestyle. We are a small, family-run business, established in Nottinghamshire. Based in Hucknall, we have furnished our bespoke projects to clients throughout the East Midlands since 1993.
+
+We pride ourselves on our professional customer service, which runs throughout: From our initial consultation where we establish our clients’ individual requirements, through to the design and installation of our projects and beyond offering a complete package of skills including internal building adjustments, plastering, plumbing, electrical, fitting of specified designs and appliances, tiling and flooring.
+
+Our quality and attention to detail is second to none from the start to the finish of all our projects and this is reflected in the large number of repeat clients placing their utmost trust in the Elegance by Design team, as can be seen in our testimonials and on the Derbyshire Trusted Trader website.
+
+Whether it’s a traditional, contemporary or modern design you have in mind, from our wealth of experience, we are able to offer our unique flexibility which enables us to convert your ideas into reality – beautiful, functional living spaces for you and your family to enjoy for many years to come.
+
+----
+
+Trust: Our quality and attention to detail is second to none from the start to the finish of all our projects and this is reflected in the large number of repeat clients placing their utmost trust in the Elegance by Design team, as can be seen in our testimonials and on the Derbyshire Trusted Trader website.
+
+----
+
+Monday: 9:30 - 17:30
+
+----
+
+Tuesday: 9:30 - 17:30
+
+----
+
+Wednesday: Closed
+
+----
+
+Thursday: 9:30 - 17:30
+
+----
+
+Friday: 9:30 - 17:30
+
+----
+
+Saturday: 9:30 - 16:00
+
+----
+
+Sunday: Closed

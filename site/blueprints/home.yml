@@ -1,0 +1,56 @@
+title: Home
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  about:
+    label: About Us
+    type: textarea  
+
+  trust:
+    label: You can trust us
+    type: textarea  
+
+  headline:
+    label: Opening Times
+    type: headline
+
+  monday:
+    label: Monday
+    type: text  
+    width: 1/5
+
+  tuesday:
+    label: Tuesday
+    type: text
+    width: 1/5 
+
+  wednesday:
+    label: Wednesday
+    type: text
+    width: 1/5  
+
+  thursday:
+    label: Thursday
+    type: text
+    width: 1/5
+
+  friday:
+    label: Friday
+    type: text
+    width: 1/5
+
+  saturday:
+    label: Saturday
+    type: text
+    width: 1/5
+
+  sunday:
+    label: Sunday
+    type: text
+    width: 1/5      
+        

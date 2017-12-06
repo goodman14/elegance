@@ -1,0 +1,39 @@
+/* -----  Imports------------------------------------------------- */
+@import 'fonts',
+'homepage',
+// 'competition',
+// 'custom',
+// 'featured',
+ 'override',
+ 'header',
+ 'footer';
+// 'sidebar',
+// 'social',
+// 'masonry',
+// 'responsive';
+
+
+// generic styles
+
+a {
+    color: #555;
+
+    &:hover {
+        color: #812325;
+    }
+}
+
+.text-primary {
+   color: #812325!important;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+body, html {
+      background: #fff;
+      font-family: 'Nunito', sans-serif;
+      font-size: 14px;
+      margin: 0px
+    }

@@ -1,0 +1,22 @@
+.btn-primary, .font-primary {
+    background: #812325!important;
+    border-color: #812325!important;
+}
+
+.btn-outline-primary {
+    border-color: #812325!important;
+    color: #812325;
+    &:hover {
+        background: #812325!important;
+    }
+}
+
+.btn-outline-default {
+    background: #812325!important;
+    border-color: #fff;
+    color: #fff;
+    &:hover {
+        background: #fff!important;
+        color: #812325;
+    }
+}
