@@ -23,3 +23,48 @@
    margin: 20px 20px 0;
 
 }
+
+
+
+.slider-outer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    width: 0;
+    display: none;
+
+    .slider-inner {
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+
+        .close-slider {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 1.5rem;
+            font-size: 2rem;
+            color: #eaeaea;
+            cursor: pointer;
+
+            &:hover {
+                color: #cfcfcf;
+            }
+        }
+
+        .contact {
+            border-top: 1px solid #eaeaea;
+            width: 50%;
+            margin: 0 auto;
+            padding-top: 15px;
+        }
+
+        li.nav-item.menu-item {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

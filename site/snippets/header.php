@@ -12,16 +12,28 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
   <script src="https://use.fontawesome.com/301454fa18.js"></script>
+
   <?= css('assets/css/base.css') ?>
+  <?= js('assets/js/main.js') ?>
 
 </head>
 <body>
 <div class="container-fluid no-padding">
-  <div class="position-absolute header-contact">
+
+  <div class="mobile-menu header-contact d-sm-none d-flex justify-content-center">
+    
+    <a class="position-absolute" onclick="openSlider()">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </a>
+    <img class="img-fluid" src="./assets/images/EleganceLogo.png" />
+  </div>
+
+  <div class="position-absolute header-contact d-none d-sm-block">
+    
     <p><i class="fa fa-phone text-primary" aria-hidden="true"></i> 0115 964 1642 <span>|</span> <i class="fa fa-envelope-o text-primary" aria-hidden="true"></i> info@elegancebydesign.co.uk</p>
   </div>
   <header class="container header wrap wide" role="banner">
-    <div class="grid">
+    <div class="grid d-none d-sm-block">
       <div class="d-flex justify-content-center logo">
         <img class="img-fluid" src="./assets/images/EleganceLogo.png" />
       </div>

@@ -74,6 +74,9 @@
       </div>
     </div>
   </footer>
+
+  <?php snippet('slide-menu') ?>          
+  
 </div>
 </body>
 </html>

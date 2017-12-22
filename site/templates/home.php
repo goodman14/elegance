@@ -51,7 +51,7 @@
             </div>
             <div class="col-md-4 ttLogo">
               <div class="trust-trader-badge">
-                <img  class="img-fluid" src="../assets/images/trusted_trader_logo.png" alt="Trusted Trader Logo"/>
+                <img  class="img-fluid" src="./assets/images/trusted_trader_logo.png" alt="Trusted Trader Logo"/>
               </div>
             </div>
           </div>
