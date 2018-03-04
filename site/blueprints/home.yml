@@ -3,36 +3,49 @@ title: Home
 pages: false
 
 fields:
+
   title:
     label: Title
     type:  text
 
+  headline1:
+    label: Rotating Banner
+    type: headline
+
+  info:
+    label: Image Rotator
+    type: info
+    text: Images uploaded on the left will be used for the rotating banner on the homepage.
+
+  headline2:
+    type: headline
+
   about:
     label: About Us
-    type: textarea  
+    type: textarea
 
   trust:
     label: You can trust us
-    type: textarea  
+    type: textarea
 
-  headline:
+  headline3:
     label: Opening Times
     type: headline
 
   monday:
     label: Monday
-    type: text  
+    type: text
     width: 1/5
 
   tuesday:
     label: Tuesday
     type: text
-    width: 1/5 
+    width: 1/5
 
   wednesday:
     label: Wednesday
     type: text
-    width: 1/5  
+    width: 1/5
 
   thursday:
     label: Thursday
@@ -52,5 +65,4 @@ fields:
   sunday:
     label: Sunday
     type: text
-    width: 1/5      
-        
+    width: 1/5

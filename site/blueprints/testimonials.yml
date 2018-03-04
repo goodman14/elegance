@@ -1,0 +1,34 @@
+title: Testimonials
+
+pages:
+  template: Testimonials
+
+files: false
+
+options:
+  template: false
+  status: false
+
+fields:
+  title:
+    label: Title
+    type: title
+
+  text:
+    label: Intro Text
+    type: textarea
+
+  testimonials:
+    label: Testimonials
+    type: structure
+    entry: {{who}} - {{date}} - {{comment}}
+    fields:
+      comment:
+        label: Comment
+        type: textarea
+      who:
+        label: who
+        type: text
+      date:
+        label: Date
+        type: date

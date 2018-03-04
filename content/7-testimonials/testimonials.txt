@@ -1,0 +1,23 @@
+Title: Testimonials
+
+----
+
+Text: into text
+
+----
+
+Testimonials: 
+
+- 
+  comment: >
+    We would like to say a big ‘Thank
+    you’ to everyone at Elegance by Design
+    for doing a fantastic Job of our
+    Bathroom. “We love it”. Many, many
+    thanks
+  who: mark
+  date: 2018-03-17
+- 
+  comment: test33
+  who: sophie
+  date: 2018-03-30

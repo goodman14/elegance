@@ -1,41 +1,51 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
-    
+  <main class="main container " role="main">
+
     <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>      
+      <h1><?= $page->title()->html() ?></h1>
       <div class="intro text">
         <?= $page->intro()->kirbytext() ?>
-      </div>    
-      <hr />      
+      </div>
     </header>
-    
-    <div class="wrap wide">
-      <h2>Get in Touch</h2>
-      
-      <ul class="contact-options">
-        <?php foreach($page->contactoptions()->toStructure() as $item): ?>
-          <?php $icon = $page->image($item->icon()); ?>
-          <li class="contact-item column">
-            <div class="contact-item-content">
-              <img src="<?= $icon->url() ?>" width="<?= $icon->width() ?>" alt="<?= $item->title()->html() ?> icon" class="contact-item-icon" />
-              <h3 class="contact-item-title"><?= $item->title()->html() ?></h3>
-              <p class="contact-item-text">
-                <?= $item->text()->html() ?>
-              </p>
-            </div>
-            <p class="contact-item-action">
-              <a href="<?= $item->url()->html() ?>" class="contact-action btn"><?= $item->linktext()->html() ?></a>
-            </p>
-          </li>
+
+    <form method="post">
+
+    <?php if($alert): ?>
+    <div class="alert">
+      <ul>
+        <?php foreach($alert as $message): ?>
+        <li><?php echo html($message) ?></li>
         <?php endforeach ?>
       </ul>
     </div>
-      
-    <div class="contact-twitter text wrap cf">
-      <?= $page->text()->kirbytext() ?>
+    <?php endif ?>
+
+    <div class="form-holder row">
+      <div class="form-group col-md-4">
+        <label for="name">Name*</label>
+        <input class="form-control" type="text" id="name" name="name">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="email">Email*</label>
+        <input class="form-control" type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="email">Telephone*</label>
+        <input class="form-control" type="number" id="telephone" name="telephone" required>
+      </div>
     </div>
-    
+    <div class="form-group">
+      <label for="text">Message*</label>
+      <textarea class="form-control" id="text" name="text" required></textarea>
+    </div>
+
+    <input class="btn btn-primary" type="submit" name="submit" value="Submit">
+
+  </form>
+
   </main>
 
 <?php snippet('footer') ?>
